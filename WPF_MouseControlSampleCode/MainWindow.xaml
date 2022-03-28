@@ -1,0 +1,34 @@
+﻿<Window
+    x:Class="WPF_MouseControlSampleCode.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:behavior="clr-namespace:WPF_MouseControlSampleCode.Behavior"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    DataContext="{Binding Source={StaticResource Locator}, Path=Main}"
+    mc:Ignorable="d">
+    <Grid>
+        <TextBox
+            Width="100"
+            Height="30"
+            Text="{Binding MyProperty}" />
+
+        <!--  Canvas must have a background, even if it's Transparent  -->
+
+        <Canvas x:Name="canvas" Background="White">
+            <i:Interaction.Behaviors>
+                <behavior:MouseCaptureBehavior Proxy="{Binding}" />
+            </i:Interaction.Behaviors>
+
+            <Rectangle
+                x:Name="Rect"
+                Width="100"
+                Height="100"
+                Fill="Red" />
+        </Canvas>
+    </Grid>
+</Window>

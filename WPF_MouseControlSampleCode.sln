@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32104.313
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_MouseControlSampleCode", "WPF_MouseControlSampleCode\WPF_MouseControlSampleCode.csproj", "{E7DEBC78-B1F2-4A61-BFCF-85975DDFD2C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFCanvas_Move_Drog", "WPFCanvas_Move_Drog\WPFCanvas_Move_Drog.csproj", "{898F75D4-FF8B-4E2C-BFD6-3549ACDF4E58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7DEBC78-B1F2-4A61-BFCF-85975DDFD2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DEBC78-B1F2-4A61-BFCF-85975DDFD2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DEBC78-B1F2-4A61-BFCF-85975DDFD2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DEBC78-B1F2-4A61-BFCF-85975DDFD2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898F75D4-FF8B-4E2C-BFD6-3549ACDF4E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898F75D4-FF8B-4E2C-BFD6-3549ACDF4E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898F75D4-FF8B-4E2C-BFD6-3549ACDF4E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898F75D4-FF8B-4E2C-BFD6-3549ACDF4E58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC1DE7FA-FC18-4AAB-8E80-D8B05337E233}
+	EndGlobalSection
+EndGlobal
