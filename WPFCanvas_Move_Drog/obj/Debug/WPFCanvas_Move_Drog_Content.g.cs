@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("point.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("yule.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/point.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/yule.jpg")]
 
 

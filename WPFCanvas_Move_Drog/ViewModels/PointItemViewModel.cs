@@ -28,7 +28,7 @@ namespace WPFCanvas_Move_Drog.ViewModels
                     Height = 20,
                     Tag = i.ToString(),
                     ToolTip = i.ToString(),
-                    Background = new ImageBrush(new BitmapImage(new Uri(@"D:\C#\DrawSampleCode\WPF_MouseControlSampleCode\WPFCanvas_Move_Drog\point.png")))
+                    Background = new ImageBrush(new BitmapImage(new Uri(@"pack://application:,,,/Images/point.png")))
                 };
 
                 obj.DragDelta += Thumb_DragDelta;

@@ -17,13 +17,19 @@
         <Canvas Background="Green">
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="PreviewMouseLeftButtonDown">
-                    <cmd:EventToCommand Command="{Binding Path=MapMoveStartCommand}" PassEventArgsToCommand="True" />
+                    <cmd:EventToCommand
+                        Command="{Binding Path=MapMoveStartCommand}"
+                        PassEventArgsToCommand="True" />
                 </i:EventTrigger>
                 <i:EventTrigger EventName="PreviewMouseMove">
-                    <cmd:EventToCommand Command="{Binding Path=MapMovingCommand}" PassEventArgsToCommand="True" />
+                    <cmd:EventToCommand
+                        Command="{Binding Path=MapMovingCommand}"
+                        PassEventArgsToCommand="True" />
                 </i:EventTrigger>
                 <i:EventTrigger EventName="PreviewMouseLeftButtonUp">
-                    <cmd:EventToCommand Command="{Binding Path=MapMoveEndCommand}" PassEventArgsToCommand="True" />
+                    <cmd:EventToCommand
+                        Command="{Binding Path=MapMoveEndCommand}"
+                        PassEventArgsToCommand="True" />
                 </i:EventTrigger>
             </i:Interaction.Triggers>
 
@@ -39,7 +45,7 @@
                 </Canvas.RenderTransform>
 
                 <Canvas.Background>
-                    <ImageBrush ImageSource="D:\C#\DrawSampleCode\WPF_MouseControlSampleCode\WPFCanvas_Move_Drog\yule.jpg" />
+                    <ImageBrush ImageSource="pack://application:,,,/Images/yule.jpg" />
                 </Canvas.Background>
 
                 <ItemsControl ItemsSource="{Binding Source={StaticResource Locator}, Path=PointItem.PointItems}">
